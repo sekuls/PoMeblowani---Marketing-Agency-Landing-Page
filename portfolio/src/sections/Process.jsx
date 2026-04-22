@@ -66,8 +66,8 @@ const ProcessSection = () => {
           </h2>
         </div>
 
-        {/* Kontener na kroki i linie */}
-        <div className="flex flex-col md:flex-row items-start justify-between w-full relative">
+        {/* Mobileview */}
+        <div className="flex flex-col md:flex-row items-center justify-between w-full relative ">
           {steps.map((step, index) => (
             <React.Fragment key={step.id}>
               {/* Pojedynczy Krok */}

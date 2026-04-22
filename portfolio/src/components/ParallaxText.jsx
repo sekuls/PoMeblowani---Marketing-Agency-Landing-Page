@@ -67,18 +67,18 @@ const ParallaxText = () => {
         </div>
       </div>
       {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
+      <div className="flex flex-col items-center space-y-1 md:hidden w-full">
         <motion.p
-          className="text-5xl font-medium"
+          className="text-5xl font-medium sm:text=5xl text-center text-neutral-300" 
           variants={variants}
           initial="hidden"
           animate="visible"
           transition={{ delay: 1 }}
         >
-          ssssss
+          Zapewnimy ci
         </motion.p>
         <div>
-          <motion.p
+          {/* <motion.p
             className="text-6xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
@@ -86,8 +86,9 @@ const ParallaxText = () => {
             transition={{ delay: 1.2 }}
           >
             sss
-          </motion.p>
+          </motion.p> */}
           <motion.div
+          
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -95,17 +96,17 @@ const ParallaxText = () => {
           >
             <FlipWords
               words={words}
-              className="font-bold text-white text-7xl"
+              className="font-bold text-orange-400 text-6xl text-center"
             />
           </motion.div>
           <motion.p
-            className="text-5xl font-black text-neutral300"
+            className="text-5xl font-black text-neutral-300"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Applications
+             w Branży Meblarskiej
           </motion.p>
           <motion.div
             className="flex gap-3 mt-6 justify-center"
