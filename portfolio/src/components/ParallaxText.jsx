@@ -78,15 +78,6 @@ const ParallaxText = () => {
           Zapewnimy ci
         </motion.p>
         <div>
-          {/* <motion.p
-            className="text-6xl font-black text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.2 }}
-          >
-            sss
-          </motion.p> */}
           <motion.div
           
             variants={variants}
@@ -96,7 +87,7 @@ const ParallaxText = () => {
           >
             <FlipWords
               words={words}
-              className="font-bold text-orange-400 text-6xl text-center"
+              className="font-bold text-orange-400 text-5xl text-center"
             />
           </motion.div>
           <motion.p
@@ -118,9 +109,9 @@ const ParallaxText = () => {
             <a href="#contact" className="px-6 py-2 border-2 border-amber-900 bg-orange-400 text-black font-semibold rounded-lg hover:bg-orange-500 transition text-sm">
               Umów bezpłatną konsultację
             </a>
-            <button className="px-6 py-2 border-2 border-orange-400 text-orange-400 font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-sm">
+            <a href="#process" className="px-6 py-2 border-2 border-orange-400 text-orange-400 font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-sm">
               Poznaj proces
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>

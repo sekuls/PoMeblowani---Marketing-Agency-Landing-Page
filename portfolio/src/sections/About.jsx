@@ -39,7 +39,7 @@ const About = () => {
         <div className="grid-default-color grid-2  rounded-2xl ">
         <div
           ref={grid2Container}
-          className="flex items-center justify-center w-full h-full relative overflow-hidden rounded-xl"
+          className="flex items-center justify-center w-full h-full relative overflow-hidden rounded-xl aspect-video md:aspect-auto"
         >
           <iframe
             className="absolute top-0 left-0 w-full h-full object-cover"
@@ -53,10 +53,7 @@ const About = () => {
       </div>
         {/* Grid 3 */}
         <div className="grid-default-color grid-2 rounded-2xl ">
-      <div
-        ref={grid2Container}
-        className="flex items-center justify-center w-full h-full relative overflow-hidden rounded-xl"
-      >
+        <div className="flex items-center justify-center w-full h-full min-h-[250px] md:min-h-0 relative overflow-hidden rounded-xl aspect-video md:aspect-auto">
         <iframe
           className="absolute top-0 left-0 w-full h-full object-cover"
           src="https://www.youtube.com/embed/I6Ef36dJPMA"
