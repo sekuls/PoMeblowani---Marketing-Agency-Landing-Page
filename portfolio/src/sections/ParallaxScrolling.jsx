@@ -16,7 +16,7 @@ const ParallaxScrolling = () => {
       <ParallaxText />
       <ParallaxBackground />
       
-      <div className="absolute bottom-1 w-full z-10 flex justify-center md:justify-start md:px-10">
+      <div className="absolute bottom-4 w-full z-10 flex justify-center md:justify-start md:px-10">
         <SocialLinks />
       </div>
 
