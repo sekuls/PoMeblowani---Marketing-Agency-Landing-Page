@@ -4,7 +4,7 @@ import ParallaxScrolling from "./sections/ParallaxScrolling"
 import About from "./sections/About"
 import Projects from "./sections/FAQ"
 import Testimonial from "./sections/Testimonial"
-import Form from "./sections/From"
+import Form from "./sections/Form"
 import Footer from "./sections/Footer"
 import StatsSection from "./components/StatsSection"
 import Process from "./sections/Process"
@@ -23,7 +23,7 @@ function App() {
     <Projects />
     <Contact2 />
     <Footer />
-   </div>
+    </div>
 
   )
 }

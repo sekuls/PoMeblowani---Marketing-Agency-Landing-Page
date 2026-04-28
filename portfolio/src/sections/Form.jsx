@@ -34,8 +34,8 @@ const handleSubmit = async (e) => {
         "TUTAJ_WKLEJ_SWOJ_SERVICE_ID",   // np. "service_12345"
         "TUTAJ_WKLEJ_SWOJ_TEMPLATE_ID",  // np. "template_abcde"
         {
-          from_name: formData.name,
-          from_email: formData.email,
+          form_name: formData.name,
+          form_email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
@@ -52,7 +52,7 @@ const handleSubmit = async (e) => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing" id="contact">
+    <section className="relative flex items-center c-space section-spacing" id="form">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={10}
