@@ -31,15 +31,15 @@ const handleSubmit = async (e) => {
     try {
       console.log("Form submitted:", formData);
       await emailjs.send(
-        "TUTAJ_WKLEJ_SWOJ_SERVICE_ID",   // np. "service_12345"
-        "TUTAJ_WKLEJ_SWOJ_TEMPLATE_ID",  // np. "template_abcde"
+        "service_odb8ebh",   // service
+        "template_qgwdaen",  // template
         {
           form_name: formData.name,
           form_email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
-        "TUTAJ_WKLEJ_SWOJ_PUBLIC_KEY"    // np. "AbC_dEf1234567890"
+        "ih3YcMBIy7DGYXLj_"    // id
       );
       
       setIsLoading(false);
