@@ -57,7 +57,7 @@ const ParallaxText = () => {
             animate="visible"
             transition={{ delay: 2.1 }}
           >
-            <a href="#from" className="px-8 py-3 border-2 border-amber-600 bg-orange-400 text-black font-semibold rounded-lg hover:bg-orange-500 transition" >
+            <a href="#form" className="px-8 py-3 border-2 border-amber-600 bg-orange-400 text-black font-semibold rounded-lg hover:bg-orange-500 transition" >
               Umów bezpłatną konsultację
             </a>
             <a href="#process" className="px-8 py-3 border-2 border-orange-400 text-orange-400 font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-center block">

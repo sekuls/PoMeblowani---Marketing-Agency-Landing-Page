@@ -31,8 +31,8 @@ const handleSubmit = async (e) => {
     try {
       console.log("Form submitted:", formData);
       await emailjs.send(
-        "service_odb8ebh",   // service
-        "template_qgwdaen",  // template
+        "service_myxouvv",   // service
+        "template_y4i7v7y",  // template
         {
           form_name: formData.name,
           form_email: formData.email,
@@ -64,7 +64,7 @@ const handleSubmit = async (e) => {
       <div className="flex flex-col items-center justify-center max-w-200 p-6 mx-auto border border-white/10 rounded-2xl bg-black/50 backdrop-blur-sm">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
            <p className="text-[#fd7e00] text-2xl  font-bold tracking-widest uppercase mb-2 text-center">
-            SKONKTAKTUJ SIĘ Z NAMI
+            SKONTAKTUJ SIĘ Z NAMI
           </p>
           <p className="font-normal text-neutral-400">
             Napisz i uzyskaj wszystkie potrzebne informacje i odpowiedzi.
@@ -72,8 +72,8 @@ const handleSubmit = async (e) => {
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
-              Imie i Nazwisko
+            <label htmlFor="name" className="field-label">
+              Imię i Nazwisko
             </label>
             <input
               id="name"
@@ -120,7 +120,7 @@ const handleSubmit = async (e) => {
           </div>
           <div className="mb-5">
             <label htmlFor="message" className="feild-label">
-              Wiadmość
+              Wiadomość
             </label>
             <textarea
               id="message"
