@@ -50,7 +50,7 @@ const ContactSection = () => {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold text-white mb-2"
           >
-            <p className="text-[#fd7e00] text-3xl  font-bold tracking-widest uppercase mb-2 ">
+            <p className="text-[#F0841A] text-3xl  font-bold tracking-widest uppercase mb-2 ">
             Kontakt
           </p>
           </motion.h2>
@@ -78,7 +78,7 @@ const ContactSection = () => {
                   
                   {/* Teksty */}
                   <div className="flex flex-col">
-                    <span className="text-orange-500 font-bold text-lg leading-tight">
+                    <span className="text-[#F0841A] font-bold text-lg leading-tight">
                       {item.title}
                     </span>
                     <span className="text-white text-lg font-medium leading-tight mt-1 transition-colors duration-300 group-hover:text-orange-400">

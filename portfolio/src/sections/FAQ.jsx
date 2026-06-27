@@ -19,11 +19,11 @@ const Projects = () => {
       className="relative c-space section-spacing"
       id="projects"
     >
-       <p className="text-[#fd7e00] text-3xl  font-bold tracking-widest uppercase mb-2 ">
+       <p className="text-[#F0841A]text-3xl  font-bold tracking-widest uppercase mb-2 ">
             FAQs
           </p>
       <br />
-      <p className="text-2xl  text-orange-500">Często zadawane pytania</p>
+      <p className="text-2xl  text-[#F0841A]">Często zadawane pytania</p>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />

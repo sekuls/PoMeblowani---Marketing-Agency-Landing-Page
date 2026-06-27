@@ -68,7 +68,7 @@ const ParallaxBackground = () => {
             quantity={4}
             size ={40}
             ease={50}
-            color={"#ff9b31"}
+            color={"#F0841A"}
             refresh
           />
        </motion.div>

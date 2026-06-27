@@ -9,7 +9,7 @@ const SocialLinks = ({ showTitle = true, iconSize = 32 }) => {
       
   
       {showTitle && (
-        <h3 className="text-lg font-medium text-orange-500">
+        <h3 className="text-lg font-medium text-[#F0841A]">
           Sprawdź nasze treści na:
         </h3>
       )}
@@ -20,7 +20,7 @@ const SocialLinks = ({ showTitle = true, iconSize = 32 }) => {
           href="https://www.youtube.com/@PoMeblowani" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-orange-500 hover:text-red-600 transition-colors duration-300"
+          className="text-[#F0841A] hover:text-red-600 transition-colors duration-300"
           aria-label="Nasz kanał na YouTube"
         >
    
@@ -31,7 +31,7 @@ const SocialLinks = ({ showTitle = true, iconSize = 32 }) => {
           href="https://www.instagram.com/po_meblowani/" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-orange-500 hover:text-pink-600 transition-colors duration-300"
+          className="text-[#F0841A] hover:text-pink-600 transition-colors duration-300"
           aria-label="Nasz profil na Instagramie"
         >
           <FaInstagram size={iconSize} />
@@ -41,7 +41,7 @@ const SocialLinks = ({ showTitle = true, iconSize = 32 }) => {
           href="https://www.facebook.com/PoMeblowaniMarketing/" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-orange-500 hover:text-blue-600 transition-colors duration-300"
+          className="text-[#F0841A] hover:text-blue-600 transition-colors duration-300"
           aria-label="Nasz fanpage na Facebooku"
         >
           <FaFacebook size={iconSize} />

@@ -36,7 +36,7 @@ const Project = ({
         transition={{ duration: 0.4, ease: "easeInOut" }}
         className="overflow-hidden"
       >
-        <div className="py-6 space-y-3 text-orange-500">
+        <div className="py-6 space-y-3 text-[#F0841A]">
           <p className="text-base leading-relaxed">{description}</p>
           {subDescription && (
             <ul className="list-disc pl-5 space-y-2">

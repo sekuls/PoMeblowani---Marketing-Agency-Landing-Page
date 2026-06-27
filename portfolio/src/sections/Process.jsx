@@ -78,7 +78,7 @@ const ProcessSection = () => {
                 animate={isInView ? "visible" : "hidden"}
                 className="flex flex-col items-center flex-1 z-10 mb-12 md:mb-0 group"
               >
-                <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full border-[3px] border-[#fd7a00] p-2 mb-6 bg-[#0d0d0d] shadow-[0_0_15px_rgba(253,191,0,0.1)] transition-transform duration-500 group-hover:scale-105">
+                <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full border-[3px] border-[#F0841A] p-2 mb-6 bg-[#0d0d0d] shadow-[0_0_15px_rgba(253,191,0,0.1)] transition-transform duration-500 group-hover:scale-105">
                   <div className="w-full h-full rounded-full overflow-hidden bg-black-700 flex items-center justify-center p-8">
                     <img 
                       src={step.icon} 
@@ -87,7 +87,7 @@ const ProcessSection = () => {
                     />
                   </div>
                   
-                  <div className="absolute top-2 right-0 translate-x-1/4 -translate-y-1/4 w-12 h-12 bg-[#fd7a00] rounded-full flex items-center justify-center text-black font-bold text-lg shadow-lg">
+                  <div className="absolute top-2 right-0 translate-x-1/4 -translate-y-1/4 w-12 h-12 bg-[#F0841A] rounded-full flex items-center justify-center text-black font-bold text-lg shadow-lg">
                     {step.id}
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const ProcessSection = () => {
                     variants={lineVariants}
                     initial="hidden"
                     animate={isInView ? "visible" : "hidden"}
-                    className="absolute top-0 left-0 h-full bg-[#e78f14]"
+                    className="absolute top-0 left-0 h-full bg-[#F0841A]"
                     style={{ originX: 0 }} 
                   />
 
@@ -116,7 +116,7 @@ const ProcessSection = () => {
                     initial={{ opacity: 0 }}
                     animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                     transition={{ delay: step.lineDelay + 0.5 }}
-                    className="absolute top-1/2 right-[33%] md:right-[33%] w-3 h-3 border-t-2 border-r-2 border-[#f89b29] rotate-45 -translate-y-1/2 translate-x-1/2 bg-[#0d0d0d]" 
+                    className="absolute top-1/2 right-[33%] md:right-[33%] w-3 h-3 border-t-2 border-r-2 border-[#F0841A] rotate-45 -translate-y-1/2 translate-x-1/2 bg-[#0d0d0d]" 
                  
                   />
                 </div>

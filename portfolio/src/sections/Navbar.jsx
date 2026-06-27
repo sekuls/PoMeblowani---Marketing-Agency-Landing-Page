@@ -50,18 +50,22 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
+    <div className="fixed inset-x-0 top-0 z-[100] w-full border-b border-white/10 bg-[#050505]/90 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.45)]">
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
          <a
           href="/"
           className="text-xl font-bold transition-colors text-white hover:opacity-80"
         >
-          Po<span className="text-[#fd8300]">Meblow</span>ani<span className="text-[#fd8300]">.</span>
+          {/* Po<span className="text-[#F0841A]">Meblow</span>ani<span className="text-[#F0841A]">.</span> */}
+          <img
+              src={"/assets/PoMeblowani-logo-na-strone-2.png"}
+              className="w-46 h-6"
+            />
         </a>    
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex cursor-pointer text-neutral-400 hover:text-orange-500 focus:outline-none sm:hidden"
+            className="flex cursor-pointer text-neutral-400 hover:text-[#F0841A] focus:outline-none sm:hidden"
           >
             <img
               src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}

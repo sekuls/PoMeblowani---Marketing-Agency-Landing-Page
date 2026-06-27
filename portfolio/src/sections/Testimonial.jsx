@@ -34,7 +34,7 @@ const ReviewCard = ({ img, name, username, body }) => {
 export default function Testimonial() {
   return (
     <div className="items-start mt-25 md:mt-35 c-space" id="testimonial">
-       <p className="text-[#fd7e00] to-orange-700 text-3xl  font-bold tracking-widest uppercase mb-2 text-center">
+       <p className="text-[#F0841A] to-orange-700 text-3xl  font-bold tracking-widest uppercase mb-2 text-center">
             Co o nas mówią klienci?
        </p>
       <div className="relative flex flex-col items-center justify-center w-full mt-12 overflow-hidden">
@@ -50,6 +50,17 @@ export default function Testimonial() {
         </Marquee>
         <div className="absolute inset-y-0 left-0 w-1/4 pointer-events-none bg-gradient-to-r from-primary"></div>
         <div className="absolute inset-y-0 right-0 w-1/4 pointer-events-none bg-gradient-to-l from-primary"></div>
+      </div>
+
+      <div className="mt-8 flex justify-center">
+        <a
+          href="https://www.facebook.com/PoMeblowaniMarketing/reviews"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-lg border border-orange-400 px-6 py-3 font-semibold text-[#F0841A] transition hover:bg-orange-400 hover:text-black"
+        >
+          Sprawdź opinię
+        </a>
       </div>
     </div>
   );

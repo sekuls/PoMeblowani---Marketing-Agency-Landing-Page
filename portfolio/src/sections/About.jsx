@@ -6,7 +6,7 @@ const About = () => {
   const grid2Container = useRef();
   return (
     <section className="c-space section-spacing" id="about" >
-  <p className="text-[#fd7e00] text-3xl font-bold tracking-widest uppercase mb-2 text-center">
+  <p className="text-[#F0841A] text-3xl font-bold tracking-widest uppercase mb-2 text-center">
     O nas
   </p>
   
@@ -23,10 +23,10 @@ const About = () => {
       
         <div className="text-neutral-300 text-sm md:text-base space-y-4">
           <p>
-            <strong className="text-orange-400">Jakub Micota</strong> – od ponad 13 lat związany z branżą meblarską. Od najmłodszych lat pomagał przy produkcji mebli na zamówienie swojemu tacie, dzięki czemu poznał branżę meblarską na wylot. Od 2020 roku wraz ze wspólnikiem tworzy markę mgstore.com.pl, dzięki której wyposażył warsztat w park maszynowy o łącznej wartości blisko 1 mln złotych.
+            <strong className="text-[#F0841A]">Jakub Micota</strong> – od ponad 13 lat związany z branżą meblarską. Od najmłodszych lat pomagał przy produkcji mebli na zamówienie swojemu tacie, dzięki czemu poznał branżę meblarską na wylot. Od 2020 roku wraz ze wspólnikiem tworzy markę mgstore.com.pl, dzięki której wyposażył warsztat w park maszynowy o łącznej wartości blisko 1 mln złotych.
           </p>
           <p>
-            <strong className="text-orange-400">Maciej Wyszyński</strong> – współtwórca marki mgstore.com.pl. Specjalista od reklam, który wygenerował ponad 4 mln przychodu ze sklepu. Obecnie osobiście obsługuje kampanie reklamowe klientów PoMeblowanych.
+            <strong className="text-[#F0841A]">Maciej Wyszyński</strong> – współtwórca marki mgstore.com.pl. Specjalista od reklam, który wygenerował ponad 4 mln przychodu ze sklepu. Obecnie osobiście obsługuje kampanie reklamowe klientów PoMeblowanych.
           </p>
         </div>
       </div>

@@ -31,15 +31,15 @@ const handleSubmit = async (e) => {
     try {
       console.log("Form submitted:", formData);
       await emailjs.send(
-        "service_myxouvv",   // service
-        "template_y4i7v7y",  // template
+        "service_bl2acqc",   // service
+        "template_o6jcsp9",  // template
         {
           form_name: formData.name,
           form_email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
-        "ih3YcMBIy7DGYXLj_"    // id
+        "euzyFe59Q-8dZoAM8"    // id
       );
       
       setIsLoading(false);
@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-200 p-6 mx-auto border border-white/10 rounded-2xl bg-black/50 backdrop-blur-sm">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-           <p className="text-[#fd7e00] text-2xl  font-bold tracking-widest uppercase mb-2 text-center">
+           <p className="text-[#F0841A] text-2xl  font-bold tracking-widest uppercase mb-2 text-center">
             SKONTAKTUJ SIĘ Z NAMI
           </p>
           <p className="font-normal text-neutral-400">
@@ -137,7 +137,7 @@ const handleSubmit = async (e) => {
           </div>
           <button
             type="submit"
-            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-orange-500 to-orange-600 hover-animation"
+            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-[#F0841A] to-orange-500 hover-animation"
           >
             {!isLoading ? "Wyślij" : "Wysyłanie..."}
           </button>

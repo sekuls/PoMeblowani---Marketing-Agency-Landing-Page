@@ -129,7 +129,7 @@ const StatsSection = () => {
       </div>
 
     
-      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#fd8700]" />
+      <div className="absolute bottom-0 left-0 w-full h-2 bg-[#F0841A]" />
     </motion.section>
   );
 };

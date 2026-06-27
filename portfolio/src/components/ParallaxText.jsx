@@ -38,7 +38,7 @@ const ParallaxText = () => {
           >
             <FlipWords
               words={words}
-              className="font-black text-orange-400 text-7xl"
+              className="font-black text-orange-400 text-6xl"
             />
           </motion.div>
           <motion.p
@@ -57,10 +57,10 @@ const ParallaxText = () => {
             animate="visible"
             transition={{ delay: 2.1 }}
           >
-            <a href="#form" className="px-8 py-3 border-2 border-amber-600 bg-orange-400 text-black font-semibold rounded-lg hover:bg-orange-500 transition" >
+            <a href="#form" className="px-2 py-2 border-2 border-amber-600 bg-[#F0841A] text-black font-semibold rounded-lg hover:bg-orange-500 transition text-center block" >
               Umów bezpłatną konsultację
             </a>
-            <a href="#process" className="px-8 py-3 border-2 border-orange-400 text-orange-400 font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-center block">
+            <a href="#process" className="px-2 py-2 border-2 border-orange-400 text-[#F0841A] font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-center block">
               Poznaj proces
             </a>
           </motion.div>
@@ -106,10 +106,10 @@ const ParallaxText = () => {
             animate="visible"
             transition={{ delay: 2.1 }}
           >
-            <a href="#form" className="px-6 py-2 border-2 border-amber-900 bg-orange-400 text-black font-semibold rounded-lg hover:bg-orange-500 transition text-sm">
+            <a href="#form" className="px-6 py-2 border-2 border-amber-900 bg-[#F0841A] text-black font-semibold rounded-lg hover:bg-orange-500 transition text-sm">
               Umów bezpłatną konsultację
             </a>
-            <a href="#process" className="px-6 py-2 border-2 border-orange-400 text-orange-400 font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-sm">
+            <a href="#process" className="px-6 py-2 border-2 border-orange-400 text-[#F0841A] font-semibold rounded-lg hover:bg-orange-400 hover:text-black transition text-sm">
               Poznaj proces
             </a>
           </motion.div>
