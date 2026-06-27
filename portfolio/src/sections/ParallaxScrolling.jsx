@@ -43,7 +43,7 @@ const ParallaxScrolling = () => {
             <motion.img
               src="/assets/team1.png"
               alt="Zespół"
-              className="h-[80vh] md:h-[80vh] w-auto max-w-none object-contain pointer-events-none"
+              className="h-[50vh] md:h-[80vh] w-auto max-w-none object-contain pointer-events-none"
               initial={{ opacity: 0, x: isMobile ? 0 : 400, y: isMobile ? 40 : 0 }}
               animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
