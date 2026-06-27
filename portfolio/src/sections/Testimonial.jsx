@@ -54,7 +54,7 @@ export default function Testimonial() {
 
       <div className="mt-8 flex justify-center">
         <a
-          href="https://www.facebook.com/PoMeblowaniMarketing/reviews"
+          href="https://m.facebook.com/PoMeblowaniMarketing/reviews"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-lg border border-orange-400 px-6 py-3 font-semibold text-[#F0841A] transition hover:bg-orange-400 hover:text-black"
