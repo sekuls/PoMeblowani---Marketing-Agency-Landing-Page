@@ -12,23 +12,15 @@ import SocialLinks from '../components/SocialLinks';
 
 const ParallaxScrolling = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-  const [showText, setShowText] = useState(!isMobile);
+  const [showText, setShowText] = useState(true);
 
   useEffect(() => {
     if (!isMobile) {
       setShowText(true);
       return;
     }
-
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setShowText(true);
-      }
-    };
-
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
+    // Tekst zawsze widoczny na mobile
+    setShowText(true);
   }, [isMobile]);
   
   return (
